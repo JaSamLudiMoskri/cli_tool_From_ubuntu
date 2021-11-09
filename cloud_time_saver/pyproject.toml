@@ -15,7 +15,7 @@ fire = "0.4.0"
 pytest = "^5.2"
 
 [tool.poetry.scripts]
-cts = 'entry:cts'
+cloud_time_saver = 'cloud_time_saver.cts.main'
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
